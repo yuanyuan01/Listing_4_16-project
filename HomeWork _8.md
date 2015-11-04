@@ -53,14 +53,14 @@ public class Listing_4.16 {
 ```
 
 
-### Console
+## Console output
 ```java
 The random number is : 90
 The uppercase letter is: Z
 ```
 
 
-#### Command prompt
+## Command prompt
 ```
      Git is the open source distributed version control system that facilitates GitHub activities on your drive or desktop. First, starting a project in Eclipse, second Start a local repository, in this case, you should follow the list such as:
 1.	Open the command prompt,  : Start >search for ‘ cmd’ > Strike Enter. 
@@ -90,7 +90,7 @@ git push -u origin master
 You can initialize this repository with code from a Subversion, Mercurial, or TFS project.
 Last time, use add, commit, and push to finished it.
 ```
-##### Summary
+## Summary
 ```
 In this problem I also should be using if statements and random method to finished my java program.
 First at all, I was think about how to set up the random method what I want to use for.AS you know, 
