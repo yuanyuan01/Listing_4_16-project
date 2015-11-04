@@ -52,5 +52,20 @@ The uppercase letter is: B
 ```
 
 ## Command Prompt
-
 ```
+1. Open Eclipse and start new project
+	a. may need to change to your workspace
+2. Go to Github and start a new repository.
+
+3. Use the command prompt to make the connections.
+
+
+a. Navigate to the correct location. Looking for src and bin folders.
++Move to the E: drive:
+
+C:\Users\LAB>E:
+
+*dir* shows what is in the directory.
+```
+## Summary
+```In this problem I also should be using if statements and random method to finished my java program. First at all, I was think about how to set up the random method what I want to use for.AS you know, I do like’ int number =50 + (int)(Math.random() * 50)’; then I can limit the number between 50 to 99 it’s facilitate testing the code as soon as possible. The most difficult is running if statement to realize the number corresponds to the suppercase letter. ``
