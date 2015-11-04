@@ -7,40 +7,45 @@ and then use print statements to display the result.
 ## Code 
 
 ```java
-public class Listing_4_16 {
 
+public class Listing_416 {
 	public static void main(String[] args) {
-		// Using the Math.random() method to display the number
-		int number =50 + (int)(Math.random() * 50);
-		// Display a random number
-        System.out.println(" The random number is: " + number);
-        
-	   //Check the number is available
-		if(number <= 90 && number >=65){
-			int i = number;
-			char c =(char)i;
-			//Display the random uppercase letter
-			System.out.println("The uppercase letter is: " + c  );
-		}
-			
-			else
-			{ 
-				// Tell user this number is no available in this case 
-				System.out.println("This number is an invalid. ");
-			
-		}
+		
+		int startingValue = 65;  //'A' is 65
+		int endingValue = 90-startingValue + 1; /* 'Z' is 90,
+		and we wanted to cover the range, so we added 1 more to ensure
+		we would cover A through Z .
+		*/
+		/* From page 122 a + Math.random() * b gives us a random
+		 *  number between a and a+ b*/
+		int randomNumber;/*Make s new variable
+		 and then fill it with a random number that is between or 
+		 starting value and ending value. Then print it out.
+		 */
+		
+		randomNumber = (int)(startingValue + Math.random() * endingValue);
+		//System.out.println(randomNumber); // debugging statement
+		System.out.println("The random number is : " + randomNumber);
+		
+		char letter = (char)randomNumber; // recast the number to s letter 
+		System.out.println("The uppercase letter is: " + letter);   // Print it out
+		
+
 	}
 
 }
 
+
+
 ### Console
 ```java
-The random number is: 66
-The uppercase letter is: B
+The random number is : 90
+The uppercase letter is: Z
+```
 
 
 #### Command prompt
-
+```
      Git is the open source distributed version control system that facilitates GitHub activities on your drive or desktop. First, starting a project in Eclipse, second Start a local repository, in this case, you should follow the list such as:
 1.	Open the command prompt,  : Start >search for ‘ cmd’ > Strike Enter. 
 2. Change drives to my thumb drive using our drive letter a colon “ : ”. E:\User\LAB>E:     
@@ -68,10 +73,12 @@ git push -u origin master
 …or import code from another repository
 You can initialize this repository with code from a Subversion, Mercurial, or TFS project.
 Last time, use add, commit, and push to finished it.
-
+```
 ##### Summary
+```
 In this problem I also should be using if statements and random method to finished my java program.
 First at all, I was think about how to set up the random method what I want to use for.AS you know, 
 I do like’ int number =50 + (int)(Math.random() * 50)’; then I can limit the number between 50 to 99 
 it’s facilitate testing the code as soon as possible. 
 The most difficult is running if statement to realize the number corresponds to the suppercase letter. 
+```
