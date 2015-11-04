@@ -4,6 +4,19 @@ This code will display the  number between 65 to 90 corresponds to the uppercase
 In this case I also use the if statement and random method to realize order, 
 and then use print statements to display the result.  
 
+## Project Outline
+```java
+//Declaring variables
+// use special statement: Math.random()
+// print result
+```
+
+
+## References & Literature
+```
+*  liang,Y. Daniel. *Introduction to JAVA Programming: 
+Comprehensive Version. * 10th ed. n.p : Pearson, 2014.print.
+``` 
 ## Code 
 
 ```java
