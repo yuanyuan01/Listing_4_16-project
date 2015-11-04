@@ -1,8 +1,11 @@
 # Java code to generate a Random uppercase letter
+## Introduction
+```
   In this problem I need to write a project that displays a random uppercase letter using the Math.random() method. 
 This code will display the  number between 65 to 90 corresponds to the uppercase letter between ‘A’ to ‘Z’ .
 In this case I also use the if statement and random method to realize order, 
 and then use print statements to display the result.  
+```
 
 ## Project Outline
 ```java
@@ -17,7 +20,7 @@ and then use print statements to display the result.
 *  liang,Y. Daniel. *Introduction to JAVA Programming: 
 Comprehensive Version. * 10th ed. n.p : Pearson, 2014.print.
 ``` 
-## Code 
+## Java Code 
 
 ```java
 
