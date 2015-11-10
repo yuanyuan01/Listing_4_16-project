@@ -63,13 +63,18 @@ The uppercase letter is: Z
 
 ## Command prompt
 ```
-     Git is the open source distributed version control system that facilitates GitHub activities on your drive or desktop. First, starting a project in Eclipse, second Start a local repository, in this case, you should follow the list such as:
+     Git is the open source distributed version control system 
+     that facilitates GitHub activities on your drive or desktop. 
+     First, starting a project in Eclipse, second Start a local repository, 
+     in this case, you should follow the list such as:
 1.	Open the command prompt,  : Start >search for ‘ cmd’ > Strike Enter. 
 2. Change drives to my thumb drive using our drive letter a colon “ : ”. E:\User\LAB>E:     
 E:>
 2.	 Use dir to see what is on the directory E:>dir 
 3.	Use cd add your workplace, like E:\ Computer Science I\ Listing 4_16 project>
-( In here ,I had some trouble to happened, when I use the git command, it display the result is” ‘ git ’ is not recognized as an internal or external command, operable program or batch file” then I can’t continue to use git to finish my work what I want to.)
+( In here ,I had some trouble to happened, when I use the git command, 
+it display the result is” ‘ git ’ is not recognized as an internal or external command,
+operable program or batch file” then I can’t continue to use git to finish my work what I want to.)
 4.	Set up my local repository.
 5.	Use git add . to add all my files.
 
@@ -77,7 +82,8 @@ Thirdly, connect our local repository to our global repository.
 Just follow:
 1.	Open a browser of choice
 2.	Go to Github and sign in: https://github.com/login
-Add a new repository then  follow the instruction to …or create a new repository on the command line
+Add a new repository then  follow the instruction to …or
+create a new repository on the command line
 echo # markdown-practice2 >> README.md
 git init
 git add README.md
